@@ -1,3 +1,5 @@
+body, html {scroll-behavior:smooth;}
+
 /* 반응형 대비 최소제한 너비 설정  */
 header, main {min-width:900px;}
 /* header */
@@ -138,5 +140,33 @@ main #project_web1 .link a {
     margin-right:10px;
 }
 main #project_web1 .link a:last-child {
+    margin-right:0; background-color:#BA90C6;
+}
+/* #project_web2 */
+main #project_web2 {
+    background:rgba(228, 214, 238, 0.42);
+    padding-bottom:35px;
+}
+main #project_web2 h1 {
+    font-size:3.125rem; letter-spacing:-0.02rem; font-weight:700;
+    padding-top:70px; margin-bottom:46px;
+}
+main #project_web2 p {margin-bottom:37px;}
+main #project_web2 p img {}
+main #project_web2 .project_info {}
+main #project_web2 .project_info p {
+    font-size:1.25rem; letter-spacing:-0.02rem; line-height:30px;
+    text-align:left; transform:translateX(30%);
+    margin-bottom:15px;
+}
+main #project_web2 .link {
+    display:flex; flex-flow:row nowrap; justify-content:center;
+}
+main #project_web2 .link a {
+    padding:10px 20px; background:#000; border-radius:10px;
+    color:#fff; font-weight:700; font-size:1.25rem;
+    margin-right:10px;
+}
+main #project_web2 .link a:last-child {
     margin-right:0; background-color:#BA90C6;
 }
